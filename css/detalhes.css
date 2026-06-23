@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cores do projeto */
+/*
+#9C5800
+#9C2B00
+#00129C
+#00649C
+#473218
+*/
+
+body {
+    background-color: #f5f2ed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botoes {
+    margin: 20px 0;
+}
+
+.botoes a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botoes a:hover {
+    color: #9C5800;
+}
+
+.detalhes {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+}
+
+.imagem {
+    flex: 1;
+}
+
+.imagem img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.informacoes {
+    flex: 1;
+}
+
+.informacoes h2 {
+    color: #00129C;
+    margin-bottom: 20px;
+}
+
+.preco {
+    color: #9C5800;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.informacoes p {
+    margin-bottom: 20px;
+}
+
+.informacoes ul {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.informacoes li {
+    margin-bottom: 10px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #9C5800;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: #9C2B00;
+}
+
+footer {
+    background-color: #00129C;
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+}
+
+footer a {
+    color: #9C5800;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
